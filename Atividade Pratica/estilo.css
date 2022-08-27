@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #555454;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: #1C1C1C; 
+    padding: 24px;
+    text-align: center;
+     
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    margin-top: 4rem;
+    padding: 38px; 
+}
+
+footer li {
+    list-style: none;
+}
+
+h2{
+    color: #ffffff;
+    
+}h1{
+    margin-block-start: 0em; 
+    color: white;
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em;
+    border-radius: 10px;
+}
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
+.container{
+    font-family: monospace;
+    background-color: #1C1C1C;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #fda027;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ffbf6c;
+    color: #532f00;
+}
+
+table{
+   border-style: hidden;
+    margin:auto;
+    font-size: medium;
+   padding: 20px;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+}
+
+td{
+    padding: 10px;
+   
+}
+
+thead{
+    background-color: #e75270;
+    padding: 10px;
+    
+}
+
+tr{
+    padding: 10px;
+    color: #aa6000;
+    background-color: #ffffff;
+    
+}
+
+th{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #fda027;
+    
+}
+
+.div-produtos{
+    text-align: center;
+    color: #ffffff;
+
+}

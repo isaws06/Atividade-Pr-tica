@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h2>Calculadora IMC</h2>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="div-produtos">
+        <label> Venha descobrir o seu índice de massa corporal!
+        <br>
+        Após aparecer o alerta anunciando a sua classificação, clique em OK para ver o seu IMC
+        </label>
+    </div>
+    <br>
+    <br>
+    <br>
+   <div class="area">
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <div class="input_area">
+            <h2>Altura (cm) </h2>
+            <input id="height" type="number">
+        </div>
+        <div class="input_area">
+            <h2>Peso (kg) </h2>
+            <input id="weight" type="number">
+        </div>
+        <br>
+        <button onclick="calculate()">Calcular</button>
+        <br>
+        <button onclick="limpar()">Limpar</button>
+        <br>
+        <input type="text" readonly placeholder="IMC" id="imc">
+
+        </div>
+       
+    </div>  
+    <br>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>IMC</th> 
+                <th>Classificação</th>
+                <th> Obesidade </th>
+              </tr>
+        </thead>
+      <tbody>
+        <tr>
+            <td>Menor que 18.5</td>
+            <td>Abaixo do peso</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>Entre 18.5 e 24.9</td>
+            <td>Normal</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>Entre 25.0 e 29</td>
+            <td>Sobrepeso</td>
+            <td>|</td>
+        </tr>
+        <tr>
+            <td>Entre 30.0 e 39.9</td>
+            <td>Obesidade</td>
+            <td>||</td>
+        </tr>
+        <tr>
+            <td>Maior que 40.0</td>
+            <td>Obesidade Grave</td>
+            <td>|||</td>
+        </tr>
+    </tbody>  
+    </table>
+
+    <br>
+     
+    <footer>
+        <ul>
+            <li>Isadora Wenzel da Silveira</li>
+            <li>2ºA</li>
+            <li>Sesi Senai</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
